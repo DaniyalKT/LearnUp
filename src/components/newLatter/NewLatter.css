@@ -1,0 +1,98 @@
+.newLatter{
+    background-color: #da0b4e;
+    direction: rtl;
+    padding: 80px 0 80px;
+    position: relative;
+}
+.newLattarWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.newLatterText{
+    color: #fff;
+    font-size: 28px;   
+}
+
+.newLatterPhara{
+    color: #fff;
+    margin: 0 20px 20px;
+    font-size: 13px;
+    font-weight: 300;
+
+}
+.newLatterForm{
+    background-color: #fff;
+    width: 670px;
+    position: relative;
+
+
+}
+
+.newLatterInput{
+ font-size: 15px;
+ outline: 0;
+ font-weight: 400px;
+ background-color: #fff;
+ border: 1px solid #fff;
+ padding: 20px 20px 18px;
+ height: 70px;
+ border-radius: 2px;
+ -webkit-border-radius: 2px;
+ -moz-border-radius: 2px;
+ -ms-border-radius: 2px;
+ -o-border-radius: 2px;
+ line-height: 1.2;
+ background-image: none;
+ color: #495057;
+ transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ -moz-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ -ms-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+ -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.newLatterBtn{
+    position: absolute;
+    bottom:4px;
+    left: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 14px 25px 14px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    white-space: auto;
+    border-width: 0;
+    cursor: pointer;
+    height: 60px;
+    background-color: #da0b4e;
+    color: #fff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+@media screen and (max-width: 740px) {
+    .newLatterForm{
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .newLatterPhara{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 403px) {
+    .newLatterText{
+        font-size: 5vw;
+    }
+}

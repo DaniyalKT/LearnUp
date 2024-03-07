@@ -1,0 +1,120 @@
+.coursesContainer {
+  margin-top: 10rem;
+}
+
+
+.coursesfillter {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+}
+
+.fillterBtnSection {
+  margin: 1rem auto 1rem 1rem;
+}
+/* Target the select element */
+.fillterSelection {
+  width: 150px;
+  direction: rtl;
+  border: 2px solid #e6ebf1;
+  color: #647b9c;
+  font-size: 14px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.fillterButton {
+  background-color: #da0b4e;
+  border: none;
+  color: #fff;
+  margin-left: 1em;
+  cursor: pointer;
+  box-shadow: 0px 1px 4px 0px rgba(255, 90, 95, 0.3);
+  text-align: center;
+  line-height: 42px;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 0 18px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.showCount p {
+  font-size: 14px;
+  color: #4d5868;
+  font-weight: 400;
+}
+
+.coursesSection{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reloadButton{
+  background-color: #fff;
+  color: #da0b4e;
+  border: 2px solid #c9cddc;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  padding: 0 40px;
+  font-weight: 500;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: all ease .4s;
+  -webkit-transition: all ease .4s;
+  -moz-transition: all ease .4s;
+  -ms-transition: all ease .4s;
+  -o-transition: all ease .4s;
+  direction: rtl;
+}
+
+.reloadButton:hover{
+  background-color: #da0b4e;
+  border: 2px solid #da0b4e;
+  color: #fff;
+}
+
+.courseBoxInfo2 h3{
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 794px) {
+  .coursesfillter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fillterBtnSection {
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (max-width: 337px) {
+  .fillterBtnSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fillterButton {
+    margin-left: 0;
+  }
+  .fillterSelection {
+    margin-bottom: 1em;
+  }
+}

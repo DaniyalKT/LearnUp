@@ -1,0 +1,27 @@
+
+.titlePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+  
+  .titlePage h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .titlePage p {
+    color: #4d5868;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-top: 10px;
+  }
+  
+  .titlePageHomeSpan {
+    color: #da0b4e;
+  }
+  
+  .titlePageCoursesSpan {
+    color: #000;
+  }

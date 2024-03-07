@@ -1,0 +1,31 @@
+.titlePartSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #4d5868;
+    line-height: 0;
+  }
+  
+  .title {
+    color: #000;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  
+  .titleSpan {
+    color: #da0b4e;
+  }
+
+  @media screen and (max-width: 399px) {
+    .title{
+      font-size: 5vw;
+    }
+  }

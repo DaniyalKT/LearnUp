@@ -1,0 +1,83 @@
+.aboutFactContainer {
+  margin-top: 10rem;
+  direction: rtl;
+}
+
+.aboutFactWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
+}
+
+.aboutFactsImgSection img {
+  max-width: 100%;
+  height: auto;
+}
+
+.headerFacts h2 {
+  font-family: vazir-bold, sans-serif !important;
+}
+
+.headerFacts span {
+  font-family: vazir-bold, sans-serif !important;
+  color: #da0b4e;
+}
+
+.factLists {
+  display: flex;
+  align-items: center;
+  width: 77%;
+  margin-bottom: 1.5rem;
+}
+
+
+.listFactIcon{
+    width: 45px;
+    height: 45px;
+    background-color: rgba(217, 11, 78, .1);
+    box-shadow: 0 7px 15px rgba(0, 22, 84, .1);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #da0b4e;
+}
+
+.listFactCaption  h4{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #202124;
+}
+
+.listFactCaption p{
+    margin: 0;
+    font-size: 14px;
+    color: #4d5868;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 992px) {
+
+  
+.aboutFactWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+  margin-left: 0px;
+  align-items: center;
+}
+
+.aboutFactsInfoSection{
+  width: 100%;
+}
+  
+}

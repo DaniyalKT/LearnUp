@@ -1,0 +1,47 @@
+.featurs{
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+     gap: 2rem;
+     
+}
+
+.featurItem{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    gap: 1rem;
+}
+.descriptionSection{
+    width: 100%;
+    
+}
+
+.featurTitle{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.featurText{
+    font-size: 13px;
+   color:#4d5868 ;
+   font-weight: 400;
+}
+
+.featurIcon{
+    background: rgba(218, 11, 78,0.1);
+    color: #da0b4e;
+    width:55px;
+    height: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

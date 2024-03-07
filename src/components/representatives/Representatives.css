@@ -1,0 +1,25 @@
+.repWrapper{
+    width: 234px;
+}
+
+.slick-track{
+    transform: translate3d(1638px, 0px, 0px) ;
+    -webkit-transform: translate3d(1638px, 0px, 0px) ;
+    -moz-transform: translate3d(1638px, 0px, 0px) ;
+    -ms-transform: translate3d(1638px, 0px, 0px) ;
+    -o-transform: translate3d(1638px, 0px, 0px) ;
+    opacity: 1;
+}
+
+
+.repWrapper img{
+    opacity: .7;
+    display: table;
+    margin: 0 auto;
+    max-width: 130px;
+    transition: all ease .4s;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    -o-transition: all ease .4s;
+}

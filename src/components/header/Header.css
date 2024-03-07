@@ -1,0 +1,156 @@
+.headerContainer {
+  min-height: 92vh;
+}
+
+.displayHeader {
+  display: none;
+}
+
+.headerWrapper {
+  background-color: #003783;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7em;
+}
+
+.leftSection {
+  width: 50%;
+}
+
+.eduLeftSection {
+  width: 29vw;
+  height: 428px;
+  margin-top: 80px;
+}
+
+.rightSection {
+  direction: rtl;
+  width: 50%;
+}
+
+.titleSection {
+  color: #fff;
+
+  padding: 0 1rem;
+  font-weight: 700;
+  line-height: 70px;
+  font-size: 36px;
+}
+.paragraphSection {
+  font-size: 14px;
+  color: #fff;
+  width: 90vw;
+  line-height: 2;
+}
+
+.searchBox {
+  background-color: #fff;
+  width: 34em;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.searchInput {
+  border: none;
+  outline: 0;
+  width: 400px;
+  height: 70px;
+  padding-right: 10px;
+  font-size: 15px;
+  color: #5f5f5f;
+}
+.searchBtn {
+  height: 73px;
+  position: relative;
+  left: -10px;
+  width: 80px;
+  border: none;
+  background-color: #da0b4e;
+  color: #fff;
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.searchLogo {
+  margin: 0 15px;
+  max-width: 25px;
+}
+@media screen and (max-width: 1179px) {
+  .searchBox {
+    width: 30em;
+  }
+  .searchInput {
+    width: 23em;
+  }
+}
+
+@media screen and (max-width: 1252px) {
+  .headerWrapper {
+    flex-direction: column-reverse;
+    padding: 6em 1em;
+  }
+
+  .leftSection {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .rightSection {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .eduLeftSection {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .eduLeftSection {
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 523px) {
+  .searchBox {
+    width: 25em;
+  }
+  .searchInput {
+    width: 17em;
+  }
+
+  .titleSection{
+    font-size: 7vw;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .searchBox {
+    width: 20em;
+  }
+  .searchInput {
+    width: 12em;
+  }
+}
+
+@media screen and (max-width: 346px) {
+  .searchBox {
+    width: 18em;
+  }
+  .searchInput {
+    width: 10em;
+  }
+
+  .paragraphSection{
+    font-size: 12px;
+  }
+}

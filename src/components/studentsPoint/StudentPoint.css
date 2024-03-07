@@ -1,0 +1,70 @@
+.studentPointsContainer{
+    background:  url(/public/images/testimonial.png);
+  
+    padding:20px 0 80px;
+    position: relative;
+
+}
+
+.clientDetailBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.pic{
+    margin: .5rem auto;
+}
+
+.pic img{
+    width: 89px;
+    height: 89px;
+    border: 6px solid #ebedf1;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.ClientDetail h3{
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.ClientDetail span{
+    font-size: 14px;
+    color: #4d5868;
+    font-weight: 400;
+
+}
+
+.description{
+    margin-bottom: 1rem;
+    color: #4d5868;
+    font-weight: 400;
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.8rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+@media screen and (max-width: 887px) {
+    
+    .description{
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 471px) {
+    
+    .description{
+        max-width: 90vw;
+    }
+}

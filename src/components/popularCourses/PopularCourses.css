@@ -1,0 +1,228 @@
+.popularCourses {
+  background: #f7f7f7 url("/public/images/pat.png");
+  font-family: iranSans;
+  width: 100%;
+}
+
+.popularRowSection{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.popularSection{
+  display: flex;
+  justify-content: center;
+}
+ 
+.popularCoursesSection{
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #e8ebf1;
+  margin-bottom: 30px;
+  direction: rtl;
+  padding: 1rem;
+  position: relative;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  
+}
+
+.popularDescriptionSection{
+  margin-right: 30px;
+}
+
+.popularImgSection {
+  width: 200px;
+  height: 211px;
+  margin: 0;
+  overflow: hidden;
+}
+.popularImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
+
+.popularPriceSection{
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 0;
+  right: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #203675;
+}
+
+.lessOffer{
+  margin-right: 8px;
+  font-size: 13px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+
+.popularTeacherImg {
+  max-width: 35px;
+  height: 35px;
+  overflow: hidden;
+  margin-left: 7px;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.popularTeacherName{
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 1;
+    color: #4a5874;
+}
+
+.popularTitle{
+  color: #2D3954;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.starRaiting{
+  direction: ltr;
+  position: relative;
+  left: 0px;
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.starCountH5{
+  color: #FF9800;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.starCountH6{
+  color: #5c5c5c;
+  font-size: 12.5px;
+  font-weight: 400;
+  direction: rtl
+}
+
+.popularCoursesInfoSection{
+   display: flex;
+   align-items: center;
+   margin-top: 50px;
+}
+
+.popularTeacherSection {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex:  1 ;
+}
+
+.popularCoursesInfo{
+  margin: 0;
+  padding: 6px 15px;
+  display: flex;
+  align-items: center;
+  background-color:rgba(30, 173, 107,0.13) ;
+  color: #1ead6b;
+  font-size: 12px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+
+.skipStyleIcon{
+  margin-left:5px;
+}
+
+.starPoint{
+  display: flex ;
+  
+}
+
+.starPoint h5{
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 741px) {
+  .popularTitle{
+   font-size: 12px; 
+   font-weight: 700;
+  }
+}
+
+
+@media screen and (max-width: 688px) {
+  
+  .starRaiting{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+
+
+@media screen and (max-width: 638px) {
+  .popularTitle{
+   font-size: 10px; 
+   font-weight: 700;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .popularSection{
+    width: 100%;
+  }
+  .popularCoursesSection{
+    width: 100%;
+    margin: 01rem ;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .popularCoursesSection{
+    flex-direction: column;
+  }
+
+  .popularImgSection{
+    width: 100%;
+    height: 100%;
+  }
+
+  .popularDescriptionSection{
+    margin: 1rem 0;
+    width: 100%;
+  }
+  .popularTitle{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 354px) {
+  .popularTitle{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,202 @@
+.teacherCourseContainer{
+  width: 100% !important;
+margin: 0 auto !important;
+}
+
+@media screen and (max-width: 768px) {
+  .teacherCourseContainer .slick-list{
+     position: relative;
+     left: 15vw;
+  }
+  
+}
+.teacherCourseWrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+  box-shadow: 0 2px 10px rgba(0, 22, 84, 0.1);
+  width: 293px !important;
+  height: 100%;
+  padding: 3rem 2rem 3.5rem;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+.slick-track{
+  height: 170px !important;
+}
+
+
+
+.slick-slide{
+  margin: 20px 1px;
+}
+
+.teacherInfoSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.teacherImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.teachersName {
+  color: #303740;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 23px;
+}
+
+.teachersSkills {
+  color: #4d5868;
+  font-size: 13px;
+}
+.teachersSocial {
+  margin: 10px auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.googlePlus {
+  color: #e83800;
+  background: rgba(232, 56, 0, 0.2);
+}
+.facebook {
+  color: #2e4fc7;
+  background: rgba(46, 79, 199, 0.2);
+}
+.twittre {
+  color: #38afe8;
+  background: rgba(56, 175, 232, 0.2);
+}
+
+.teachrsSocialList {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.teachersName:hover {
+  color: #da0b4e !important;
+}
+.coursesInfo {
+  width: 100%;
+}
+
+.coursesInfoUl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  direction: rtl;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+.coursesInfoList {
+  font-size: 13px;
+  color: #4a5874;
+}
+
+.coursesInfo ul li {
+  flex: 0 0 50%;
+  width: 50%;
+}
+
+.coursesInfoIcon {
+  margin-left: 0.5rem !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.slick-dots li {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  transition: all ease-out 0.5s;
+  -webkit-transition: all ease-out 0.5s;
+  -moz-transition: all ease-out 0.5s;
+  -ms-transition: all ease-out 0.5s;
+  -o-transition: all ease-out 0.5s;
+}
+
+.slick-dots button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: 0;
+  background: 0 0;
+}
+
+.slick-dots li button:before {
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 2.5px;
+  content: "";
+  text-align: center;
+  opacity: 0.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #23b39f;
+  border-radius: 50px;
+  
+}
+
+.slick-dots li.slick-active button:before{
+      opacity: 1;
+      background: #da0b4e;
+}
+
+.slick-next{
+  display: none !important;
+}
+
+.slick-prev{
+  display: none !important;
+}
